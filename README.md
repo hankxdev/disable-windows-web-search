@@ -14,22 +14,23 @@ I have to use group policy, regeditor to disable it, and have to search for this
 
 To do it step by step is a bit complicated and it's totally a waste of time. So I just create this reg file so that anyone who want to do this can do it by one click.
 
-Comment for these reg code in case someone double it:
+Comment for these reg code in case someone doubt it:
 
 ---
 
 `"ConnectedSearchUseWebOverMeteredConnections"=dword:00000000 ` // _disable web search use mobile connection
 
-`"AllowCortana"=dword:00000000`// disable cortane
+`"AllowCortana"=dword:00000000`// disable Cortana
 
 `"DisableWebSearch "=dword:00000001` // disable web search
 
 `"ConnectedSearchUseWeb"=dword:00000000` // disabled web searech connection
 
-`"CortanaConsent"=dword:00000000` // disable cortane
+`"CortanaConsent"=dword:00000000` // disable Cortana
 
 `"BingSearchEnabled"=dword:00000000` // disable bing search in start menu
 
 `"AllowSearchToUseLocation"=dword:00000000` // disable search feature access your location
 
 ---
+Enjoy :) 
