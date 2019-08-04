@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Search ]
+"ConnectedSearchUseWebOverMeteredConnections"=dword:00000000
+"AllowCortana"=dword:00000000
+"DisableWebSearch "=dword:00000001
+"ConnectedSearchUseWeb"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"CortanaConsent"=dword:00000000
+"BingSearchEnabled"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
