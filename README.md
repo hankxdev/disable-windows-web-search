@@ -22,7 +22,7 @@ Comment for these reg code in case someone doubt it:
 
 `"AllowCortana"=dword:00000000`// disable Cortana
 
-`"DisableWebSearch "=dword:00000001` // disable web search
+`"DisableWebSearch"=dword:00000001` // disable web search
 
 `"ConnectedSearchUseWeb"=dword:00000000` // disabled web searech connection
 
