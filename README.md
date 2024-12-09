@@ -1,17 +1,15 @@
-# disable-windows-web-search
-A reg file to disable Windows shows web search result and search suggestion in Windows search
+# Disable Windows web search 
+If you're tired of Windows pushing Cortana and Bing in your face, you're not alone. One of the most frustrating things is seeing web search results and random "search suggestions" whenever you try to use the Start menu to find an app or file.
 
-Windows is promoting its `Cortana` and Bing search. One of the most annoying thing is that it shows web search content when you search in start menu.
+You hit the Windows key, type a keyword, and instead of just showing your installed programs or local files, it clutters the results with irrelevant junk from the web. If you're here looking for a way to disable this, I bet you think it’s as annoying as I do.
 
-So you press `Windows` button, type some keywords, all you want to do is just access your installed app or file quickly, but then you see some shitty stuff in the result list -- web search result and even some so called `search suggesttion`. it's based on your keywords and some trends on the web, since you are searching how to disable this, I know that you also think it's totally garbage. 
+At first, Windows actually let you turn this off through a simple option in the settings. But as more people started disabling it, Microsoft decided to quietly remove the toggle—because, of course, they knew we all hated it.
 
-In the beginning, Windows gave user an option in the search menu to turn this off. But then Windows knowns that most of the users hated it, so it just removed this option...
+Now, the only way to turn it off is through Group Policy or by editing the registry. And every time there’s a major update, it’s like starting from scratch.
 
-I have to use group policy, regeditor to disable it, and have to search for this every time when it updates. 
+To save everyone the hassle, I put together a REG file that disables this junk with a single click. It's straightforward, quick, and saves you from having to dig around in settings every time.
 
-To do it step by step is a bit complicated and it's totally a waste of time. So I just create this reg file so that anyone who want to do this can do it by one click.
-
-Comment for these reg code in case someone doubt it:
+Note: I’ve included comments in the REG code itself to make it clear what each part does, in case you’re skeptical or want to verify what’s being changed.
 
 ---
 
